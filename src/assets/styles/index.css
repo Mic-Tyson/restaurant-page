@@ -1,0 +1,106 @@
+/* General body style to give a rustic yet playful feel */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f1e1; /* A soft cream color for warmth */
+  color: #3c3a36; /* Dark brownish text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* The main container for the restaurant content */
+.content {
+  background-color: #f0e7d8;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #d7b78a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* Style for the heading (H1) */
+h1 {
+  font-size: 3em;
+  color: #6b3e2f;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+}
+
+/* Style for the description text */
+p {
+  font-size: 1.4em;
+  color: #b78d6c;
+  line-height: 1.8;
+  margin-top: 10px;
+  font-family: 'Georgia', serif;
+}
+
+/* Styling for the image */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  border: 3px solid #6b3e2f;
+}
+
+/* Button style for interaction (optional) */
+button {
+  background-color: #8b5e3c;
+  color: #f4f4f4;
+  font-size: 1.2em;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #a77a56;
+  transition: 0.3s;
+}
+
+
+header {
+  background-color: #6b3e2f; /* Darker brown to complement the theme */
+  padding: 20px;
+  text-align: center;
+  color: #f4f1e1; /* Soft cream for contrast */
+  font-family: 'Georgia', serif; /* Elegant and rustic font */
+  border-bottom: 5px solid #d7b78a; /* Lighter accent to define the bottom */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Slight shadow for depth */
+}
+
+
+nav button {
+  background-color: #8b5e3c; /* Matching the rustic button color */
+  color: #f4f4f4;
+  font-size: 1.2em;
+  padding: 12px 25px;
+  margin: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #a77a56; /* Lighter shade when hovered */
+}
+
+header > h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Adding depth */
+}
+
+header > p {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #e6c19b; /* Slightly lighter than the heading for contrast */
+}
